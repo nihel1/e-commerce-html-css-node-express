@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - A Shop</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.jpg" width="125px"> 
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+
+            </ul>
+        </nav>
+        <img src="images/cart.jpg" width="35px" height="35px">
+        <img src="images/menu.jpg" class="menu-icon" onclick="menutoggle()">
+    
+ </div>   
+</div>
+
+<!------ account-page ------>
+<div class="account-page">
+    <div class="left-image">
+    <div class="copy">
+        <div class="right-image">
+            <form>
+                <section class="copy">
+                    <h2>Sign Up</h2>
+                    <div class="login-container">
+                        <p>Already have an account? <a href="#">
+                            <strong>Log In</strong></a></p>
+                    </div>
+                </section>
+<div class="input-container name">
+    <label for="fname">Full Name</label>
+    <input id="fname" name="fname" placeholder="Enter your name" type="text">
+</div>
+<div class="input-container" email>
+    <label for="email">Email</label>
+    <input id="email" name="email" placeholder="Enter your e-mail" type="email">
+</div>
+<div class="input-container" password>
+    <label for="password">Password</label>
+    <input id="password" name="password" placeholder="Enter password" type="password">
+    <i class="far fa-eye-slash"></i>
+</div>
+<div class="input-container cta">
+    <label class="checkbox-container">
+        <input type="checkbox">
+        <span class="checkmark"></span>
+        Sign up for email updates.
+    </label>
+</div>
+<button class="signup-btn" type="submit">Sign Up</button>
+<section class="copy legal">
+    <p><span class="small">By continuing, you agreer to accept our <br> <a href="#">privacy Policy</a> &amp; 
+    <a href="#">Terms of service</a>.</span></p>
+</section>
+</form>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

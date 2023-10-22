@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Shop | E-commerce Web Site</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+
+    <div class="col-2">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="images/video.mp4" type="video/mp4">
+        </video>
+        
+    </div>
+
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.jpg" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/cart.jpg" width="35px" height="35px"></a>
+        <img src="images/menu.jpg" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="wrap">
+        <div class="search">
+           <input type="text" class="searchTerm" placeholder="What are you looking for?">
+           <button type="submit" class="searchButton">
+             <img src="images/search.jpg" height="100%" width="100%">
+          </button>
+        </div>
+     </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Give Your Body<br>A New Style!</h1>
+            <p>The more you praise and celebrate your life, the more there is in life to celebrate.</p>
+            <a href="" class="btn">Explore Now &#8594;</a>
+        </div>
+       
+    </div>
+</div>
+</div>
+<!------ featured categories ------>
+<div class="categories">
+    <div class="small-container"></div>
+    <div class="row">
+        <div class="col-3">
+            <img src="images/category-1.jpg" alt="">
+        </div>
+        <div class="col-3">
+            <img src="images/category-2.jpg" alt="">
+        </div>
+        <div class="col-3">
+            <img src="images/category-3.jpg" alt="">
+        </div>
+    </div>
+</div>
+</div>
+<!------features Products ------>
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="products-details.html"><img src="images/product-1.jpg"></a>
+            <a href="products-details.html"><h4>Red Printed T-Shirt</h4></a>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>   
+        </div>
+        <div class="col-4">
+            <img src="images/product-2.jpg">
+            <h4>Air Jordan Black</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$150.00</p>
+        </div>
+                <div class="col-4">
+            <img src="images/product-3.jpg">
+            <h4>Flat Front Slim Fit Cargo Pants</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>$12.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-4.jpg">
+            <h4>Puffy Jacket</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+
+            </div>
+            <p>$200.00</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+    <div class="col-5">
+    <img src="images/product-5.jpg">
+    <h4>Nike Everyday Plus Cushioned Training Ankle</h4>
+    <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+    </div>
+    <p>$12.00</p>   
+</div>
+<div class="col-5">
+    <img src="images/product-6.jpg">
+    <h4>Smart Watch Daniel Klein DKR4-1</h4>
+    <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+        <i class="fa-regular fa-star"></i>
+    </div>
+    <p>$300.00</p>
+</div>
+        <div class="col-5">
+    <img src="images/product-7.jpg">
+    <h4>Dry Fit Men's Training Sportswear Gym</h4>
+    <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star-half-stroke"></i>
+    </div>
+    <p>$70.11</p>
+</div>
+<div class="col-5">
+    <img src="images/product-8.jpg">
+    <h4>Best Djeans Trends</h4>
+    <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+
+    </div>
+    <p>$60.00</p>
+</div>
+<div class="col-5">
+<img src="images/product-9.jpg">
+<h4>Full Circle Dress</h4>
+<div class="rating">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+</div>
+<p>$100.00</p>   
+</div>
+<div class="col-5">
+<img src="images/product-10.jpg">
+<h4>White Pants</h4>
+<div class="rating">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+    <i class="fa-regular fa-star"></i>
+</div>
+<p>$90.00</p>
+</div>
+    <div class="col-5">
+<img src="images/product-11.jpg">
+<h4>Womens Leather jackets </h4>
+<div class="rating">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star-half-stroke"></i>
+</div>
+<p>$120.00</p>
+</div>
+<div class="col-5">
+<img src="images/product-12.jpg">
+<h4>White Women's Shirt</h4>
+<div class="rating">
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-solid fa-star"></i>
+    <i class="fa-regular fa-star"></i>
+</div>
+<p>$30.00</p>
+</div>
+</div>
+</div>
+<!------Offer------>
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/exclusive.jpg" class="offer-img">
+                <div class="col-2">
+                    <p>Exclusively Available On our Shop</p>
+                    <h1>Smart Brand 6</h1>
+                    <small>Xiaomi Band 6 connected watch - 1.56
+                        " AMOLED full-screen touch screen - Resolution 152 x 486 pixels - 
+                        waterproof up to 50 meters - Bluetooth 5.0.</small>
+                        <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------ testimonial ------>
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>In promotion and advertising, a testimonial or performance consists of 
+                    a written or oral statement by a person extolling the merits of a product.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div> 
+                    <img src="images/user-1.jpg">
+                    <h3>Sean Parker</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>In promotion and advertising, a testimonial or performance consists of 
+                    a written or oral statement by a person extolling the merits of a product.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div> 
+                    <img src="images/user-2.jpg">
+                    <h3>John Smith </h3>
+            </div>
+            <div class="col-3">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>In promotion and advertising, a testimonial or performance consists of 
+                    a written or oral statement by a person extolling the merits of a product.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div> 
+                    <img src="images/user-3.jpg">
+                    <h3>Mabel Joe</h3>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!------ brands ------>
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-6">
+                <img src="images/logo-philips.jpg">
+            </div>
+            <div class="col-6">
+                <img src="images/logo-samsung.jpg">
+            </div>
+            <div class="col-6">
+                <img src="images/logo-paypal.jpg">
+            </div>
+            <div class="col-6">
+                <img src="images/logo-xiaomi.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+<!------ footer ------>
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App For Android And Ios Mobile Phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.jpg">
+                    <img src="images/app-store.jpg">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.jpg">
+                <p>Our Purpose Is To Substainably Make The Pleasure And Benefits Of Sports Accessible To The Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li> Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">CopyRight 2023 - e-commerce site</p>
+    </div>
+</div>
+<!------ js for toggle menu ------>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight == "0px" ;
+        }
+    }
+</script>
+
+</body>
+</html>
